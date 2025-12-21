@@ -19,23 +19,19 @@ if (isset($_POST['simpan'])) {
 <html>
 <head>
     <title>Tambah Buku</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h2>Tambah Data Buku</h2>
+<h1>Tambah Buku</h1>
 
 <form method="post">
-    <label>Judul</label><br>
-    <input type="text" name="judul" required><br><br>
-
-    <label>Penulis</label><br>
-    <input type="text" name="penulis" required><br><br>
-
-    <label>Tahun</label><br>
-    <input type="number" name="tahun" required><br><br>
-
+    <input type="text" name="judul" placeholder="Judul"><br><br>
+    <input type="text" name="penulis" placeholder="Penulis"><br><br>
+    <input type="number" name="tahun" placeholder="Tahun"><br><br>
     <button type="submit" name="simpan">Simpan</button>
 </form>
 
+<script src="js/script.js"></script>
 </body>
 </html>
