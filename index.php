@@ -35,7 +35,7 @@ $data = mysqli_query($conn, "SELECT * FROM buku");
     <td><?= $row['tahun'] ?></td>
     <td><?= $row['status'] ?></td>
     <td>
-        <a href="edit.php?id=<?= $row['id'] ?>">Edit</a> | 
+        <a href="edit.php?id=<?= $row['id'] ?>">Edit</a> |
         <a href="hapus.php?id=<?= $row['id'] ?>" onclick="return confirm('Hapus data?')">Hapus</a>
     </td>
 </tr>
